@@ -1,14 +1,14 @@
 
 /**
- * Write a description of class Employee here.
+ * The employee class will name and salary and return the name salary and increase in the employees salary by a certain percentage.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Lew Piper
+ * @version 9/11/2016
  */
 public class Employee
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private double byPercent = 0;
 
     /**
      * Constructor for objects of class Employee
@@ -25,9 +25,15 @@ public class Employee
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public String getName() {
+    
+    }
+    
+    public double getSalary() {
+    
+    }
+    
+    public void raiseSalary(double byPercent) {
+    
     }
 }
