@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ main()\ method\r\n
+comment1.params=x\ y
+comment1.target=int\ add(int,\ int)
+comment1.text=\r\n\ Returns\ the\ sum\ of\ x\ and\ y\r\n\r\n\ @param\ x\ first\ number\r\n\ @param\ y\ second\ number\r\n\ @return\ the\ sum\ of\ x\ and\ y\r\n
+numComments=2
