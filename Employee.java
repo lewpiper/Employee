@@ -7,33 +7,30 @@
  */
 public class Employee
 {
-    // instance variables - replace the example below with your own
+    //Define variables and instantiate them
     private double byPercent = 0;
+    private String Name = " ";
+    private double Salary = 0;
 
-    /**
-     * Constructor for objects of class Employee
-     */
-    public Employee()
+    //Copy the name and salary passed in from the other class into the private variables
+    public Employee(String Name, double Salary)
     {
-        // initialise instance variables
-        x = 0;
+        this.Name = Name;
+        this.Salary = Salary;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
+    //Return the Name String created in this class if this method is invoked
     public String getName() {
-    
+        return Name;
     }
     
+    //Return the Salary double created in this class if this method is invoked
     public double getSalary() {
-    
+        return Salary;
     }
     
+    //Calculate the raise in the salary via the double that is passed in when this method is invoked
     public void raiseSalary(double byPercent) {
-    
+        Salary = (Salary * (byPercent/100)) + Salary;
     }
 }
